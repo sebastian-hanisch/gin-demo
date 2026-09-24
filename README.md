@@ -1,5 +1,7 @@
 # 🔢 GIN – Summe statt Mittel: Nachbarn zählen
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-gin-demo.streamlit.app/)**
+
 Fünftes Stück der **Graph-Neural-Network-Linie** der "Konzepte"-Reihe im Portfolio von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning – Geschwister von
 [graphsage-demo](https://sebastianhanisch-graphsage-demo.streamlit.app/) und Nachfolger von [gcn-demo](https://sebastianhanisch-gcn-demo.streamlit.app/) (GCN → GraphSAGE, GAT → GATv2, GIN → Graph Transformer; der Graph Transformer ist noch nicht gebaut).
 
