@@ -240,7 +240,7 @@ st.markdown(
 | **Erzeugte Daten, zwölf Gebiete je Messpunkt** | Ein Vehikel mit Regeln, die genau eine Aggregation belohnen; die Zahlen gelten für diese Größen, Standardfehler sind groß; kein Test auf echten Kundendaten. | – |
 """
 )
-st.caption("Die Linie: GCN → GraphSAGE, GAT → GATv2, GIN → Graph Transformer (Graph Transformer noch nicht gebaut).")
+st.caption("Die Linie: GCN → GraphSAGE, GAT → GATv2, GIN → Graph Transformer (alle sechs Stücke sind gebaut).")
 
 st.markdown("---")
 
@@ -267,6 +267,6 @@ Implementiert in `gn_algorithm.py` (Schichten, Gradienten, Adam), `gn_scenario.p
 st.markdown("---")
 st.caption(
     "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – "
-    "Operations Research und Machine Learning. Interesse an einer maßgeschneiderten Lösung für "
-    "Ihr Unternehmen? [Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html)"
+    "Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). "
+    "Mehr zur Reihe: [Graph Neural Networks: vom GCN zum Transformer](https://sebastianhanisch.net/konzepte-graph-neural-networks.html)."
 )

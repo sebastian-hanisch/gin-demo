@@ -3,7 +3,7 @@
 **[→ Demo live ausprobieren](https://sebastianhanisch-gin-demo.streamlit.app/)**
 
 Fünftes Stück der **Graph-Neural-Network-Linie** der "Konzepte"-Reihe im Portfolio von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning – Geschwister von
-[graphsage-demo](https://sebastianhanisch-graphsage-demo.streamlit.app/) und Nachfolger von [gcn-demo](https://sebastianhanisch-gcn-demo.streamlit.app/) (GCN → GraphSAGE, GAT → GATv2, GIN → Graph Transformer; der Graph Transformer ist noch nicht gebaut).
+[graphsage-demo](https://sebastianhanisch-graphsage-demo.streamlit.app/) und Nachfolger von [gcn-demo](https://sebastianhanisch-gcn-demo.streamlit.app/) (GCN → GraphSAGE, GAT → GATv2, GIN → Graph Transformer; alle sechs Stücke sind gebaut, den Abschluss bildet [graph-transformer-demo](https://sebastianhanisch-graph-transformer-demo.streamlit.app/)).
 
 Ein **GCN** und **GraphSAGE** mitteln die Nachbarn eines Kunden – und verlieren damit, **wie viele** es sind: zwei Nachbarn vom Typ A und zehn Nachbarn vom Typ A haben denselben Mittelwert. Ein **Graph Isomorphism Network (GIN)**
 (Xu/Hu/Leskovec/Jegelka 2019) **summiert** stattdessen, $H' = \mathrm{MLP}\big((1+\epsilon)H + AH\big)$, und rechnet die Summe mit einem kleinen MLP um. Die Demo stellt drei Fragen an dieselbe Nachbarschaft – **Anteil** (mindestens die Hälfte der Nachbarn vom Typ A),
@@ -104,3 +104,7 @@ streamlit run app.py
 ```
 
 Gebaut mit Streamlit, Plotly und numpy.
+
+---
+
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Graph Neural Networks: vom GCN zum Transformer](https://sebastianhanisch.net/konzepte-graph-neural-networks.html).
